@@ -7,8 +7,13 @@ export const server = {
   open: true,
   compress: true,
   historyApiFallback: true,
+
   static: {
     directory: Path("build")
+  },
+
+  client: {
+    logging: "none"
   }
 }
 

@@ -6,7 +6,7 @@ const BaseConfig = {
 
   mode: process.env.NODE_ENV,
 
-  entry: Path("src/js/app.js"),
+  entry: { app: Path("src/js/app.jsx") },
 
   output: {
     path: Path("build"),
@@ -15,7 +15,7 @@ const BaseConfig = {
   },
 
   resolve: {
-    extensions: [".js", ".scss"]
+    extensions: [".js", ".jsx", ".scss"]
   }
 }
 

@@ -1,5 +1,5 @@
 export const js = {
-  test: /\.js$/i,
+  test: /\.js(x?)$/i,
   exclude: /node_modules/,
   loader: "babel-loader"
 }

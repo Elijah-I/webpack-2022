@@ -1,5 +1,6 @@
 export { scss } from "./scss.js"
 export { html } from "./html.js"
 export { optimg } from "./optimg.js"
+export { hotReload } from "./hot.js"
 export { cleaner } from "./cleaner.js"
 export { favicon } from "./favicon.js"

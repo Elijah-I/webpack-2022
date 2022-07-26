@@ -12,7 +12,8 @@ const config = {
     Plugin.scss,
     Plugin.html,
     Plugin.favicon,
-    Plugin.cleaner
+    Plugin.cleaner,
+    Plugin.hotReload
   ],
 
   // prettier-ignore
