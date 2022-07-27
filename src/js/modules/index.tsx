@@ -1,5 +1,5 @@
-import React from "react"
-import css from "../../scss/app.module"
+import * as React from "react"
+import css from "../../scss/app.module.scss"
 
 const App = () => {
   return (

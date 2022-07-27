@@ -20,6 +20,7 @@ const config = {
   module: {
     rules: [
       Rule.js,
+      Rule.ts,
       Rule.html,
       Rule.scss,
       Rule.assets
@@ -32,6 +33,8 @@ const config = {
   devServer: Dev.server
 }
 
-if (Plugin.optimg) config.plugins.push(Plugin.optimg)
+// prettier-ignore
+if (Plugin.optimg)
+  config.plugins.push(Plugin.optimg)
 
 export default config
