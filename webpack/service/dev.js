@@ -1,8 +1,8 @@
 import { Path } from "./path.js"
-import { isDev, isProd } from "./env.js"
+import { isProd } from "./env.js"
 
 export const server = {
-  hot: isDev,
+  hot: false,
   port: 3000,
   open: true,
   compress: true,

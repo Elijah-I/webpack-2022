@@ -6,7 +6,11 @@ const BaseConfig = {
 
   mode: process.env.NODE_ENV,
 
-  entry: { app: Path("src/js/app.tsx") },
+  entry: {
+    app: Path("src/js/app.tsx"),
+    hot: "webpack/hot/dev-server.js",
+    client: "webpack-dev-server/client/index.js?hot=true&live-reload=true"
+  },
 
   output: {
     path: Path("build"),
