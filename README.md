@@ -2,7 +2,7 @@
 
 ```bash
 git clone https://github.com/Elijah-I/webpack-2022.git .
-npm i
+npm i --force
 ```
 
 # Usage
