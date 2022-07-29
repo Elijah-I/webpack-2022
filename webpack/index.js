@@ -19,7 +19,8 @@ const BaseConfig = {
   },
 
   resolve: {
-    extensions: [".ts", ".tsx", ".js", ".jsx", ".scss"]
+    extensions: [".ts", ".tsx", ".js", ".jsx", ".scss"],
+    modules: [Path("src"), Path("node_modules")]
   }
 }
 
