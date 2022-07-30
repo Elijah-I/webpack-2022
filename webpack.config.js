@@ -27,14 +27,19 @@ const config = {
     ]
   },
 
-  optimization,
-
-  devtool: Dev.tool,
-  devServer: Dev.server
+  optimization
 }
 
 // prettier-ignore
 if (Plugin.optimg)
   config.plugins.push(Plugin.optimg)
+
+// prettier-ignore
+if (Dev.tool)
+  config.devtool = Dev.tool
+
+// prettier-ignore
+if (Dev.server)
+  config.devServer = Dev.server
 
 export default config
