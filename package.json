@@ -25,6 +25,8 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@types/webpack-env": "^1.17.0",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
     "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
@@ -32,6 +34,9 @@
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
     "css-modules-typescript-loader": "^4.0.1",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "favicons": "^6.2.2",
     "favicons-webpack-plugin": "^5.0.2",
     "html-loader": "^4.1.0",
@@ -47,6 +52,7 @@
     "mini-css-extract-plugin": "^2.6.1",
     "modern-normalize": "^1.1.0",
     "normalize.css": "^8.0.1",
+    "prettier": "^2.7.1",
     "react-hot-loader": "^4.13.0",
     "react-scripts": "^5.0.1",
     "sass": "^1.54.0",
@@ -68,7 +74,6 @@
     "@reduxjs/toolkit": "^1.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^8.0.2",
-    "redux": "^4.2.0"
+    "react-redux": "^8.0.2"
   }
 }
