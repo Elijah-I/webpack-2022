@@ -24,8 +24,8 @@ const BaseConfig = {
 }
 
 if (isDev) {
-  BaseConfig.hot = "webpack/hot/dev-server.js"
-  BaseConfig.client =
+  BaseConfig.entry.hot = "webpack/hot/dev-server.js"
+  BaseConfig.entry.client =
     "webpack-dev-server/client/index.js?hot=true&live-reload=true"
 }
 
