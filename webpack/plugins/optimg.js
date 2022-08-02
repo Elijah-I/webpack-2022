@@ -14,7 +14,7 @@ const svgHandler = {
 }
 
 export const optimg = isDev
-  ? null
+  ? false
   : new ImageMinimizerPlugin({
       minimizer: {
         implementation: ImageMinimizerPlugin.imageminMinify,
