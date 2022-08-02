@@ -1,4 +1,14 @@
-# React + TS lessons
+# Setup
 
-lesson-0: https://elijah-i.github.io/react-lessons/lesson_0/build/
-lesson-1: https://elijah-i.github.io/react-lessons/lesson_1/build/
+```bash
+git clone https://github.com/Elijah-I/webpack-2022.git .
+npm i --force
+```
+
+# Usage
+
+```js
+npm run start   // start live server
+npm run build   // create production version
+npm run dev     // create development version
+```
