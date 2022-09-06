@@ -13,6 +13,7 @@ const BaseConfig = {
 
   output: {
     path: Path("build"),
+    publicPath: "/",
     filename: filename("js/", ".js"),
     assetModuleFilename: "[file]"
   },
