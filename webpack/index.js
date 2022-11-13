@@ -27,6 +27,7 @@ if (isDev) {
   BaseConfig.entry.hot = "webpack/hot/dev-server.js"
   BaseConfig.entry.client =
     "webpack-dev-server/client/index.js?hot=true&live-reload=true"
+  BaseConfig.output.publicPath = "/"
 }
 
 export default BaseConfig
