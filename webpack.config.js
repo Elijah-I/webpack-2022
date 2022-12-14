@@ -11,6 +11,7 @@ const config = {
   plugins: [
     Plugin.scss,
     Plugin.html,
+    Plugin.eslint,
     Plugin.favicon,
     Plugin.cleaner,
     Plugin.hotReload
