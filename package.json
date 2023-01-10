@@ -11,7 +11,8 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "cross-env NODE_ENV=development webpack",
-    "start": "cross-env NODE_ENV=development webpack serve"
+    "start": "cross-env NODE_ENV=development webpack serve",
+    "deploy": "npm run build && npx gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -42,6 +43,7 @@
     "eslint-webpack-plugin": "^3.2.0",
     "favicons": "^6.2.2",
     "favicons-webpack-plugin": "^5.0.2",
+    "gh-pages": "^4.0.0",
     "html-loader": "^4.1.0",
     "html-webpack-plugin": "^5.5.0",
     "image-minimizer-webpack-plugin": "^3.2.3",

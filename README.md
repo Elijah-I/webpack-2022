@@ -11,4 +11,13 @@ npm i --force
 npm run start   // start live server
 npm run build   // create production version
 npm run dev     // create development version
+npm run deploy  // deploy project into gh-pages root
+```
+
+# P.S.
+
+If you need to deploy in separate folder inside gh-pages, use:
+
+```js
+"deploy": "npm run build && npx gh-pages -d build -e YOUR_PROJECT_FOLDER"
 ```
