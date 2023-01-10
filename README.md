@@ -1,3 +1,11 @@
+# About
+
+1. ESlint arbnb support
+2. Auto implevemt ESlint possible fixes on save
+3. Auto deploy feature
+4. Modern favicon pack generation included (can be really slow on build, up to ~5min)
+5. Full React, Redux, TS support (also can be used for simple JS too, see FAQ below)
+
 # Setup
 
 ```bash
