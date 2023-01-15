@@ -55,3 +55,18 @@ app: "./index.tsx";
 5. go to **`webpack/index.js`**
 6. find **`entry: {...}`**
 7. replace **`index.tsx`** with **`index.ts`** / **`index.js`**
+
+## 4. If you want your CSS class names to STOP being hashes:
+
+1. go to **`webpack/rules/scss.js`**
+2. find **`use: [...]`**
+3. replace **`"css-loader"`** with:
+
+```js
+{
+  loader: "css-loader",
+  options: {
+    modules: false
+  }
+}
+```
