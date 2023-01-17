@@ -2,3 +2,4 @@
 build
 webpack
 node_modules
+webpack.config.js
