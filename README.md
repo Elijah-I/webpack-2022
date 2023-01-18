@@ -3,7 +3,7 @@
 1. ESlint arbnb support
 2. Auto implevemt ESlint possible fixes on save
 3. Auto deploy feature
-4. Modern favicon pack generation included (can be really slow on build, up to ~5min)
+4. Modern favicon pack generation included (see FAQ)
 5. Full React, Redux, TS support (also can be used for simple JS too, see FAQ below)
 
 # Setup
@@ -70,3 +70,9 @@ app: "./index.tsx";
   }
 }
 ```
+
+## 5. For more speed favicon generator switched to "light" mode. It works really slow generating pack of favicons. But if you want to turn this opton on:
+
+1. go to **`webpack/plugins/favicon.js`**
+2. find **`mode: ...`**
+3. replace **`mode: "light"`** with: **`mode: "webapp"`**
