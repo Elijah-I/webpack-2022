@@ -44,7 +44,7 @@ npm run deploy  // deploy project into gh-pages root
 app: "./index.tsx";
 ```
 
-## 3. If you want to use TS/JS insterad React:
+## 3. If you want to use TS/JS instead React:
 
 1. go to **`src/`** and rename **`index.tsx`** to **`index.ts`** / **`index.js`**
    <br/><br/>
